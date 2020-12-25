@@ -1,0 +1,112 @@
+body{
+background-image:url(../images/25192f4eda302e18aece7516878ae9e5.jpg);
+    color: azure;
+    font-family: 'Oswald', sans-serif;
+
+    font-size: 10px !important;
+}
+
+h2 {
+    font-size: 1rem !important;
+}
+#nav a {
+    color: rgb(247, 241, 233);
+    font-size: 1rem;
+
+}
+
+.meal { 
+
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px bisque;
+}
+
+
+.meal img{
+    width: 80%;
+    border-radius: 30%;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+
+
+
+.meal:hover img{
+
+    transform: scale(0.9);
+
+}
+
+
+
+
+/* black boxk */ 
+
+
+.blackBox
+{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.designBox
+{
+    border-radius: 10px;
+    position: relative;
+    background: rgba(255, 228, 196, 0.438);
+    width: 50%;
+    height: 90%;
+    
+}
+
+#close
+{
+    position: absolute;
+    right: 3%;
+    top : 3%;
+    cursor: pointer;
+    
+}
+
+.img-fluid
+{
+    cursor: pointer;
+}
+
+
+.show
+{
+    display: flex;
+}
+
+.hide
+{
+display: none
+}
+
+.caption { 
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: scroll;
+    font-size: 1.2rem;
+    text-align: justify;
+
+}
+.caption h3 {
+    font-weight: bold;
+    color: burlywood;
+}
+.captionimg { 
+    margin: 5px auto;
+    width: 25%;
+    
+}
